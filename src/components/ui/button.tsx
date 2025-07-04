@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // CFO Virtual custom variants
+        cta: "bg-secondary text-primary font-semibold px-8 py-3 rounded-full hover:bg-secondary/90 transition-all duration-300 hover:scale-105",
+        "cta-outline": "border-2 border-secondary text-secondary bg-transparent px-8 py-3 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300"
       },
       size: {
         default: "h-10 px-4 py-2",

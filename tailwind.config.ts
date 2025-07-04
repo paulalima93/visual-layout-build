@@ -61,7 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// CFO Virtual Custom Colors
+				'hero-start': 'hsl(var(--hero-gradient-start))',
+				'hero-end': 'hsl(var(--hero-gradient-end))',
+				'stats-bg': 'hsl(var(--stats-bg))',
+				'partners-bg': 'hsl(var(--partners-bg))',
+				'cta-bg': 'hsl(var(--cta-bg))'
+			},
+			backgroundImage: {
+				'hero-gradient': 'linear-gradient(135deg, hsl(var(--hero-gradient-start)), hsl(var(--hero-gradient-end)))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
